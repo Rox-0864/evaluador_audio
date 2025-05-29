@@ -83,11 +83,10 @@ if st.session_state.resultados:
         pdf.set_font("Arial", size=12)
         pdf.cell(200, 10, txt="Resultados de la Evaluación", ln=True, align="C")
         for r in st.session_state.resultados:
-            pdf.multi_cell(0, 10, txt=f"Pregunta: {r['pregunta']}")
-
+           pdf.multi_cell(0, 10, txt=f"""Pregunta: {r['pregunta']}
 Esperada: {r['respuesta_esperada']}
 Alumno: {r['respuesta_alumno']}
-Correcta: {r['correcta']}
-")
+Correcta: {r['correcta']}""")
+
         pdf.output("resultados.pdf")
         st.success("Archivo PDF generado: resultados.pdf")

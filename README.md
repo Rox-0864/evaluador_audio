@@ -1,24 +1,65 @@
-# Evaluador de Python por Voz (Streamlit)
+# Bootcamp Xperience
 
-Esta app permite evaluar respuestas orales de estudiantes en Python básico mediante el reconocimiento de voz.
+**Bootcamp Xperience** es la primera plataforma inteligente de educación en Latinoamérica. Está diseñada como un espacio colaborativo donde aprendemos construyendo, combinando inteligencia artificial, tecnología y creatividad.
 
-## Instrucciones
+> Este repositorio contiene el código fuente de la plataforma, desarrollada con Python y Streamlit, en constante evolución con la participación de entusiastas de la IA de toda la región.
 
-1. Ejecuta la app:
+---
 
-```
-streamlit run evaluador_audio.py
-```
+## 🧭 Estructura de la Plataforma
 
-2. Selecciona una pregunta.
-3. Escucha la pregunta y graba tu respuesta (formato .wav).
-4. Sube el archivo y deja que la app la transcriba y evalúe.
-5. Puedes exportar los resultados a CSV o PDF.
+### 🏠 HOME
+- Vista principal del usuario
+- Acceso rápido a secciones clave de la plataforma
 
-## Despliegue en Streamlit Cloud
+### 🎯 Mis Objetivos
+- Definición y seguimiento de metas de aprendizaje personalizadas
 
-Sube estos archivos a un repositorio de GitHub y crea una nueva app en [Streamlit Cloud](https://streamlit.io/cloud) con:
+### 📚 Recomendados
+- Sugerencias inteligentes de:
+  - Cursos
+  - Formaciones
+  - Bootcamps
 
-- Archivo principal: `evaluador_audio.py`
+### 🚨 Alertas del Sistema
+- Notificaciones relevantes sobre avances, plazos, eventos y recomendaciones
 
-¡Listo!
+---
+
+## 📘 CURSOS / BOOTCAMPS
+- Visualización de contenidos
+- Navegación estructurada por módulos y etapas
+
+### 🧪 Evaluación Interactiva
+- Interacción directa con la plataforma para poner a prueba conocimientos
+- Simulación de entrevistas y respuestas con feedback en tiempo real
+
+---
+
+## 🧬 XPERIENCE LABS
+- Espacio creativo para usuarios y mentores
+- Creación de contenidos educativos con Avatares IA personalizados
+
+---
+
+## 🚧 Estado del Proyecto
+
+Este repositorio está en desarrollo activo. ¡Si quieres participar y aprender con nosotros en el proceso, estás invitado! No es una oferta de empleo, sino una experiencia colaborativa donde construimos y crecemos juntos.
+
+---
+
+## 🤝 Cómo colaborar
+
+Cada equipo tiene asignada una rama específica del repositorio. Ahí encontrarán un archivo `requirements.txt` con lo necesario para crear su entorno de trabajo local.
+
+### Pasos:
+
+1. Crea un entorno virtual en tu equipo usando el archivo `requirements.txt` que está en tu rama.
+2. Trabaja localmente en tu parte del proyecto.
+3. Cuando tengas el código funcionando, actualiza el script en tu rama del repositorio.
+4. Avísale al Project Manager para que revise y valide los cambios.
+
+---
+
+📌 **Recuerda**: Solo trabaja en tu propia rama. No modifiques otras ramas ni la principal.
+

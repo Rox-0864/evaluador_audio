@@ -66,11 +66,8 @@ def evaluar_con_groq(api_key, pregunta, respuesta_estudiante):
         # Verifica si hubo algún error HTTP (4xx, 5xx)
         response.raise_for_status()
         
-        # Extrae solo la respuesta del evaluador del JSON completo
-        # La estructura es: response.json()['choices'][0]['message']['content']
-        evaluacion = response.json()['choices'][0]['message']['content']
-        
-        return evaluacion
+        #response.json()['choices'][0]['message']['content']
+        return response
         
     except requests.exceptions.RequestException as e:
         # Captura cualquier error de red, HTTP o de la API
